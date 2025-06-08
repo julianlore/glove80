@@ -407,7 +407,19 @@
 
 /* Custom Defined Behaviors */
 / {
+#include <dt-bindings/zmk/behaviors.h>
+
 behaviors {
+        mt: mod_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <250>;
+            require-prior-idle-ms = <125>;
+            bindings = <&kp>, <&kp>;
+            display-name = "Mod-Tap";
+        };
+
         mo_tog: behavior_mo_tog {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
