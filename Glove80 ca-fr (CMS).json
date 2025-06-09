@@ -4,7 +4,7 @@
   "locale": "en-US",
   "uuid": "",
   "parent_uuid": "f78c02db-cf5c-49e0-9756-965957538bef",
-  "date": 1749418292,
+  "date": 1749420129,
   "creator": "julianl",
   "title": "Glove80 ca-fr (CMS)",
   "notes": "",
@@ -14,10 +14,6 @@
   "config_parameters": [
     {
       "paramName": "HID_POINTING",
-      "value": "y"
-    },
-    {
-      "paramName": "EXPERIMENTAL_RGB_UNDERGLOW_AUTO_OFF_IDLE",
       "value": "y"
     },
     {
