@@ -3,8 +3,8 @@
   "firmware_api_version": "1",
   "locale": "en-US",
   "uuid": "",
-  "parent_uuid": "f78c02db-cf5c-49e0-9756-965957538bef",
-  "date": 1749420129,
+  "parent_uuid": "a78e717c-879c-4085-9550-4523d4feb559",
+  "date": 1749511712,
   "creator": "julianl",
   "title": "Glove80 ca-fr (CMS)",
   "notes": "",
@@ -657,7 +657,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "LEFT",
+            "value": "F14",
             "params": []
           }
         ]
@@ -666,7 +666,7 @@
         "value": "&tog",
         "params": [
           {
-            "value": "7",
+            "value": 7,
             "params": []
           }
         ]
@@ -693,7 +693,7 @@
         "value": "&mo",
         "params": [
           {
-            "value": "1",
+            "value": 1,
             "params": []
           }
         ]
@@ -702,7 +702,7 @@
         "value": "&sl",
         "params": [
           {
-            "value": "2",
+            "value": 2,
             "params": []
           }
         ]
@@ -729,8 +729,13 @@
         "value": "&kp",
         "params": [
           {
-            "value": "UP",
-            "params": []
+            "value": "LC",
+            "params": [
+              {
+                "value": "A",
+                "params": []
+              }
+            ]
           }
         ]
       },
@@ -738,8 +743,18 @@
         "value": "&kp",
         "params": [
           {
-            "value": "DOWN",
-            "params": []
+            "value": "LC",
+            "params": [
+              {
+                "value": "LA",
+                "params": [
+                  {
+                    "value": "HOME",
+                    "params": []
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1330,7 +1345,7 @@
         "value": "&to",
         "params": [
           {
-            "value": "0",
+            "value": 0,
             "params": []
           }
         ]
@@ -1986,7 +2001,7 @@
         "value": "&to",
         "params": [
           {
-            "value": "0",
+            "value": 0,
             "params": []
           }
         ]
@@ -2442,7 +2457,7 @@
         "value": "&to",
         "params": [
           {
-            "value": "0",
+            "value": 0,
             "params": []
           }
         ]
@@ -2889,7 +2904,7 @@
         "value": "&to",
         "params": [
           {
-            "value": "0",
+            "value": 0,
             "params": []
           }
         ]
@@ -4193,7 +4208,7 @@
         "value": "&to",
         "params": [
           {
-            "value": "0",
+            "value": 0,
             "params": []
           }
         ]
@@ -4285,7 +4300,7 @@
         "value": "&to",
         "params": [
           {
-            "value": "0",
+            "value": 0,
             "params": []
           }
         ]
