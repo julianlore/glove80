@@ -527,7 +527,16 @@
         "value": "&kp",
         "params": [
           {
-            "value": "TAB",
+            "value": "F22",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&mo_tog LAYER_Shortcut LAYER_Mouse",
             "params": []
           }
         ]
@@ -536,25 +545,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "SPACE",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&mo",
-        "params": [
-          {
-            "value": 1,
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&sl",
-        "params": [
-          {
-            "value": "2",
+            "value": "RET",
             "params": []
           }
         ]
@@ -563,7 +554,16 @@
         "value": "&kp",
         "params": [
           {
-            "value": "BSPC",
+            "value": "RET",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LSHFT",
             "params": []
           }
         ]
@@ -675,16 +675,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "F22",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "Custom",
-        "params": [
-          {
-            "value": "&mo_tog LAYER_Shortcut LAYER_Mouse",
+            "value": "TAB",
             "params": []
           }
         ]
@@ -693,7 +684,25 @@
         "value": "&kp",
         "params": [
           {
-            "value": "RET",
+            "value": "SPACE",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&mo",
+        "params": [
+          {
+            "value": "1",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&sl",
+        "params": [
+          {
+            "value": "2",
             "params": []
           }
         ]
@@ -702,16 +711,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "RET",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "LSHFT",
+            "value": "BSPC",
             "params": []
           }
         ]
@@ -1201,18 +1201,33 @@
         "value": "&kp",
         "params": [
           {
-            "value": "DEL",
+            "value": "ESC",
             "params": []
           }
         ]
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LG",
+            "params": [
+              {
+                "value": "LSHFT",
+                "params": []
+              }
+            ]
+          }
+        ]
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LGUI",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&trans",
@@ -1312,40 +1327,30 @@
         "params": []
       },
       {
+        "value": "&to",
+        "params": [
+          {
+            "value": "0",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "DEL",
+            "params": []
+          }
+        ]
+      },
+      {
         "value": "&trans",
         "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "ESC",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "LG",
-            "params": [
-              {
-                "value": "LSHFT",
-                "params": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "LGUI",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&trans",
@@ -1960,16 +1965,31 @@
         "params": []
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LSHFT",
+            "params": []
+          }
+        ]
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LSHFT",
+            "params": []
+          }
+        ]
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&to",
+        "params": [
+          {
+            "value": "0",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&trans",
@@ -2419,8 +2439,13 @@
         "params": []
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&to",
+        "params": [
+          {
+            "value": "0",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&trans",
@@ -2861,22 +2886,17 @@
         "params": []
       },
       {
-        "value": "&mkp",
+        "value": "&to",
         "params": [
           {
-            "value": "MB1",
+            "value": "0",
             "params": []
           }
         ]
       },
       {
-        "value": "&mkp",
-        "params": [
-          {
-            "value": "MB2",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&trans",
@@ -2949,17 +2969,22 @@
         "params": []
       },
       {
-        "value": "&to",
+        "value": "&mkp",
         "params": [
           {
-            "value": 0,
+            "value": "MB1",
             "params": []
           }
         ]
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&mkp",
+        "params": [
+          {
+            "value": "MB2",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&trans",
@@ -4146,25 +4171,20 @@
         "value": "&kp",
         "params": [
           {
-            "value": "LCTRL",
+            "value": "F22",
             "params": []
           }
         ]
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "SPACE",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
         "value": "&kp",
         "params": [
           {
-            "value": "LSHFT",
+            "value": "TAB",
             "params": []
           }
         ]
@@ -4274,20 +4294,25 @@
         "value": "&kp",
         "params": [
           {
-            "value": "F22",
+            "value": "LCTRL",
             "params": []
           }
         ]
       },
       {
-        "value": "&none",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "SPACE",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&kp",
         "params": [
           {
-            "value": "TAB",
+            "value": "LSHFT",
             "params": []
           }
         ]

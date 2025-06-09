@@ -481,12 +481,12 @@ behaviors {
 
         layer_Base {
             bindings = <
-              &kp ESC      &kp F2      &kp F3       &kp F4       &kp F5                                                                                                            &kp F6       &kp F7      &kp F8         &kp F9    &kp F10
-              &kp ESC      &kp N1      &kp N2       &kp N3       &kp N4  &kp N5                                                                                       &kp N6       &kp N7       &kp N8      &kp N9         &kp N0  &kp MINUS
-                &none       &kp Q       &kp W        &kp E        &kp R   &kp T                                                                                        &kp Y        &kp U        &kp I       &kp O          &kp P   &kp BSLH
-                &none  &mt LGUI A  &mt LALT S  &mt LSHFT D  &mt LCTRL F   &kp G                                                                                        &kp H  &mt LCTRL J  &mt LSHFT K  &mt LALT L  &mt LGUI SEMI    &kp SQT
-            &sk LSHFT       &kp Z       &kp X        &kp C        &kp V   &kp B  &kp TAB                           &kp SPACE    &mo 1    &sl 2   &kp BSPC      &sl 6   &kp N        &kp M    &kp COMMA     &kp DOT      &kp GRAVE  &kp PG_UP
- &magic LAYER_Magic 0    &kp HOME     &kp END     &kp LEFT       &tog 7          &kp F22  &mo_tog LAYER_Shortcut LAYER_Mouse  &kp RET  &kp RET  &kp LSHFT  &kp LSHFT               &kp UP     &kp DOWN    &kp LBKT       &kp RBKT  &kp PG_DN
+              &kp ESC      &kp F2      &kp F3       &kp F4       &kp F5                                                                                   &kp F6       &kp F7      &kp F8         &kp F9    &kp F10
+              &kp ESC      &kp N1      &kp N2       &kp N3       &kp N4  &kp N5                                                              &kp N6       &kp N7       &kp N8      &kp N9         &kp N0  &kp MINUS
+                &none       &kp Q       &kp W        &kp E        &kp R   &kp T                                                               &kp Y        &kp U        &kp I       &kp O          &kp P   &kp BSLH
+                &none  &mt LGUI A  &mt LALT S  &mt LSHFT D  &mt LCTRL F   &kp G                                                               &kp H  &mt LCTRL J  &mt LSHFT K  &mt LALT L  &mt LGUI SEMI    &kp SQT
+            &sk LSHFT       &kp Z       &kp X        &kp C        &kp V   &kp B  &kp F22    &mo_tog  LAYER_Shortcut LAYER_Mouse &kp RET  &kp RET  &kp LSHFT      &sl 6   &kp N        &kp M    &kp COMMA     &kp DOT      &kp GRAVE  &kp PG_UP
+ &magic LAYER_Magic 0    &kp HOME     &kp END     &kp LEFT       &tog 7          &kp TAB  &kp SPACE    &mo 1    &sl 2   &kp BSPC  &kp LSHFT               &kp UP     &kp DOWN    &kp LBKT       &kp RBKT  &kp PG_DN
             >;
         };
 
@@ -496,8 +496,8 @@ behaviors {
  &trans     &kp F1          &kp F2          &kp F3           &kp F4     &kp F5                                                              &kp F6     &kp F7     &kp F8            &kp F9          &kp F10  &kp PSCRN
  &trans    &kp ESC        &kp HOME    &kp UP_ARROW          &kp END  &kp PG_UP                                                            &mkp MB5  &kp LC(C)  &kp LC(Z)           &kp INS        &kp LC(V)     &trans
  &trans     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN                                                            &mkp MB4  &kp LCTRL  &kp LSHFT          &kp LALT         &kp LGUI     &trans
- &trans  &kp K_APP    &kp LC(HOME)      &CEND_HOME      &kp LC(END)     &trans  &trans  &trans   &to 0  &kp DEL         &trans    &trans    &trans     &trans    &kp TAB  &kp LC(LS(SEMI))  &kp LC(LA(DEL))     &trans
- &trans     &trans          &trans         &kp F11          &kp F12             &trans  &trans  &trans  &kp ESC  &kp LG(LSHFT)  &kp LGUI               &trans     &trans            &trans           &trans     &trans
+ &trans  &kp K_APP    &kp LC(HOME)      &CEND_HOME      &kp LC(END)     &trans  &trans  &trans   &to 0  &kp ESC  &kp LG(LSHFT)  &kp LGUI    &trans     &trans    &kp TAB  &kp LC(LS(SEMI))  &kp LC(LA(DEL))     &trans
+ &trans     &trans          &trans         &kp F11          &kp F12             &trans  &trans   &to 0  &kp DEL         &trans    &trans               &trans     &trans            &trans           &trans     &trans
             >;
         };
 
@@ -508,7 +508,7 @@ behaviors {
  &trans      &trans     &kp SQT    &kp FSLH       &kp LBKT   &kp RA(LBKT)                                                        &kp RA(GRAVE)         &ARROW         &BACKTICK  &kp RA(RBKT)        &trans  &trans
  &trans    &kp BSLH  &kp RA(N7)  &kp RA(N9)     &kp LS(N9)      &kp MINUS                                                            &kp EQUAL     &kp LS(N0)        &kp RA(N0)    &kp RA(N8)  &kp LS(SEMI)  &trans
  &trans      &trans   &BACKTICK    &kp RBKT  &kp LS(MINUS)  &kp RA(COMMA)  &trans  &kp LSHFT  &kp LSHFT   &to 0  &trans  &trans    &kp RA(DOT)  &kp LS(EQUAL)  &kp LS(KP_COMMA)   &kp LS(DOT)        &trans  &trans
- &trans      &trans      &trans      &trans         &trans                 &trans     &trans     &trans  &trans  &trans  &trans                        &trans            &trans        &trans        &trans  &trans
+ &trans      &trans      &trans      &trans         &trans                 &trans  &kp LSHFT  &kp LSHFT   &to 0  &trans  &trans                        &trans            &trans        &trans        &trans  &trans
             >;
         };
 
@@ -518,7 +518,7 @@ behaviors {
      &trans    &kp C_RW    &kp C_PP    &kp C_FF  &kp K_VOL_DN  &kp K_VOL_UP                                                         &trans  &trans       &trans  &trans         &trans  &trans
      &trans  &kp LG(N6)  &kp LG(N5)      &trans    &kp LG(N7)    &kp LG(N4)                                                  &kp LS(LC(C))  &trans  &kp LS(INS)  &trans  &kp LS(LC(V))  &trans
      &trans  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)    &kp LG(N4)    &kp LG(N5)                                                         &trans  &trans       &trans  &trans         &trans  &trans
- &kp LA(F4)      &trans  &kp LG(N3)  &kp LG(N2)    &kp LG(N3)    &kp LG(N1)  &trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans       &trans  &trans         &trans  &trans
+ &kp LA(F4)      &trans  &kp LG(N3)  &kp LG(N2)    &kp LG(N3)    &kp LG(N1)  &trans   &to 0  &trans  &trans  &trans  &trans         &trans  &trans       &trans  &trans         &trans  &trans
  &kp LA(F4)      &trans      &trans      &trans        &trans                &trans   &to 0  &trans  &trans  &trans  &trans                 &trans       &trans  &trans         &trans  &trans
             >;
         };
@@ -529,8 +529,8 @@ behaviors {
  &trans  &kp C_RW        &kp C_PP        &kp C_FF     &kp K_VOL_DN    &kp K_VOL_UP                                                        &trans     &trans     &trans    &trans    &trans  &kp PSCRN
  &trans    &trans          &trans    &mmv MOVE_UP        &mkp MCLK    &msc SCRL_UP                                                      &mkp MB5     &trans     &trans    &trans    &trans     &trans
  &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN                                                      &mkp MB4  &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI     &trans
- &trans    &trans  &msc SCRL_LEFT          &trans  &msc SCRL_RIGHT          &trans  &trans  &mkp MB1  &mkp MB2  &trans  &trans  &trans    &trans     &trans     &trans    &trans    &trans     &trans
- &trans    &trans        &mkp MB4          &trans         &mkp MB5                  &trans     &to 0    &trans  &trans  &trans  &trans               &trans     &trans    &trans    &trans     &trans
+ &trans    &trans  &msc SCRL_LEFT          &trans  &msc SCRL_RIGHT          &trans  &trans     &to 0    &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans    &trans     &trans
+ &trans    &trans        &mkp MB4          &trans         &mkp MB5                  &trans  &mkp MB1  &mkp MB2  &trans  &trans  &trans               &trans     &trans    &trans    &trans     &trans
             >;
         };
 
@@ -562,8 +562,8 @@ behaviors {
  &kp ESC  &kp N1   &kp N2   &kp N3  &kp N4  &kp N5                                                           &kp N6  &kp N7     &kp N8   &kp N9    &kp N0   &trans
   &trans   &kp G    &kp Q    &kp W   &kp E   &kp T                                                            &kp Y   &kp U      &kp I    &kp O     &kp P   &trans
   &trans   &kp H    &kp A    &kp S   &kp D   &kp F                                                            &kp H   &kp J      &kp K    &kp L  &kp SEMI   &trans
-  &trans   &kp Z    &kp X    &kp C   &kp V   &kp B  &kp LCTRL  &kp SPACE  &kp LSHFT   &to 0  &trans  &trans   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH   &trans
-  &trans  &trans  &kp F11  &kp F12   &to 0            &kp F22      &none    &kp TAB  &trans  &trans  &trans          &trans     &trans   &trans    &trans   &trans
+  &trans   &kp Z    &kp X    &kp C   &kp V   &kp B    &kp F22      &none    &kp TAB   &to 0  &trans  &trans   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH   &trans
+  &trans  &trans  &kp F11  &kp F12   &to 0          &kp LCTRL  &kp SPACE  &kp LSHFT  &trans  &trans  &trans          &trans     &trans   &trans    &trans   &trans
             >;
         };
 
