@@ -31,6 +31,7 @@
 #define LAYER_Magic 5
 #define LAYER_Num 6
 #define LAYER_Gaming 7
+#define LAYER_Mirror 8
 
 /* To deal with the situation where there is no Lower layer, to keep &lower happy */
 #ifndef LAYER_Lower
@@ -171,6 +172,18 @@
                 ________ ________ ________ ________ ________          ________ ________ ________  ________ ________ ________          ________ ________ ________ ________ ________
         >;
             layer-id = <LAYER_Gaming>;
+        };
+
+        mirror {
+            bindings = <
+                WHITE    WHITE    WHITE    WHITE    WHITE                                                                             WHITE    WHITE    WHITE    WHITE    WHITE
+                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________
+                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________
+                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________
+                ________ ________ ________ ________ ________ ________ ________ ________ ________  ________ ________ ________ ________ ________ ________ ________ ________ ________
+                ________ ________ ________ ________ ________          ________ ________ ________  ________ ________ ________          ________ ________ ________ ________ ________
+        >;
+            layer-id = <LAYER_Mirror>;
         };
     };
 };
@@ -481,12 +494,12 @@ behaviors {
 
         layer_Base {
             bindings = <
-              &kp ESC      &kp F2      &kp F3       &kp F4       &kp F5                                                                                   &kp F6            &kp F7      &kp F8         &kp F9    &kp F10
-              &kp ESC      &kp N1      &kp N2       &kp N3       &kp N4  &kp N5                                                              &kp N6       &kp N7            &kp N8      &kp N9         &kp N0  &kp MINUS
-                &none       &kp Q       &kp W        &kp E        &kp R   &kp T                                                               &kp Y        &kp U             &kp I       &kp O          &kp P   &kp BSLH
-                &none  &mt LGUI A  &mt LALT S  &mt LSHFT D  &mt LCTRL F   &kp G                                                               &kp H  &mt LCTRL J       &mt LSHFT K  &mt LALT L  &mt LGUI SEMI    &kp SQT
-            &sk LSHFT       &kp Z       &kp X        &kp C        &kp V   &kp B  &kp F22    &mo_tog LAYER_Shortcut LAYER_Mouse &kp RET  &kp RET  &kp LSHFT      &sl 6   &kp N        &kp M         &kp COMMA     &kp DOT      &kp GRAVE  &kp PG_UP
- &magic LAYER_Magic 0    &kp HOME     &kp END      &kp F14       &tog 7          &kp TAB  &kp SPACE    &mo 1    &sl 2   &kp BSPC  &kp LSHFT            &kp LC(A)  &kp LC(LA(HOME))    &kp LBKT       &kp RBKT  &kp PG_DN
+              &kp ESC      &kp F2      &kp F3       &kp F4       &kp F5                                                                                                              &kp F6            &kp F7      &kp F8         &kp F9    &kp F10
+              &kp ESC      &kp N1      &kp N2       &kp N3       &kp N4  &kp N5                                                                                         &kp N6       &kp N7            &kp N8      &kp N9         &kp N0  &kp MINUS
+                &none       &kp Q       &kp W        &kp E        &kp R   &kp T                                                                                          &kp Y        &kp U             &kp I       &kp O          &kp P   &kp BSLH
+                &none  &mt LGUI A  &mt LALT S  &mt LSHFT D  &mt LCTRL F   &kp G                                                                                          &kp H  &mt LCTRL J       &mt LSHFT K  &mt LALT L  &mt LGUI SEMI    &kp SQT
+            &sk LSHFT       &kp Z       &kp X        &kp C        &kp V   &kp B  &kp F22  &mo_tog LAYER_Shortcut LAYER_Mouse  &lt 8 RET  &kp RET  &kp LSHFT      &sl 6   &kp N        &kp M         &kp COMMA     &kp DOT      &kp GRAVE  &kp PG_UP
+ &magic LAYER_Magic 0    &kp HOME     &kp END      &kp F14       &tog 7          &kp TAB                           &kp SPACE      &mo 1    &sl 2   &kp BSPC  &kp LSHFT            &kp LC(A)  &kp LC(LA(HOME))    &kp LBKT       &kp RBKT  &kp PG_DN
             >;
         };
 
@@ -562,8 +575,19 @@ behaviors {
  &kp ESC  &kp N1   &kp N2   &kp N3  &kp N4  &kp N5                                                           &kp N6  &kp N7     &kp N8   &kp N9    &kp N0   &trans
   &trans   &kp G    &kp Q    &kp W   &kp E   &kp T                                                            &kp Y   &kp U      &kp I    &kp O     &kp P   &trans
   &trans   &kp H    &kp A    &kp S   &kp D   &kp F                                                            &kp H   &kp J      &kp K    &kp L  &kp SEMI   &trans
-  &trans   &kp Z    &kp X    &kp C   &kp V   &kp B    &kp F22      &none    &kp TAB   &to 0  &trans  &trans   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH   &trans
+  &trans   &kp Z    &kp X    &kp C   &kp V   &kp B    &kp F22      &sl 8    &kp TAB   &to 0  &trans  &trans   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH   &trans
   &trans  &trans  &kp F11  &kp F12   &to 0          &kp LCTRL  &kp SPACE  &kp LSHFT  &trans  &trans  &trans          &trans     &trans   &trans    &trans   &trans
+            >;
+        };
+
+        layer_Mirror {
+            bindings = <
+ &trans  &kp F6  &kp F7     &kp F8    &kp F9                                                                     &kp F2  &kp F3  &kp F4  &kp F5  &kp F10
+ &trans  &kp N6  &kp N7     &kp N8    &kp N9     &kp N0                                                  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5   &trans
+ &trans   &kp Y   &kp U      &kp I     &kp O      &kp P                                                   &kp Q   &kp W   &kp E   &kp R   &kp T   &trans
+ &trans   &kp H   &kp J      &kp K     &kp L   &kp SEMI                                                   &kp A   &kp S   &kp D   &kp F   &kp G   &trans
+ &trans   &kp N   &kp M  &kp COMMA   &kp DOT  &kp GRAVE  &trans   &none  &trans  &trans  &trans  &trans   &kp Z   &kp X   &kp C   &kp V   &kp B   &trans
+ &trans  &trans  &trans     &trans  &kp BSPC             &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans   &trans
             >;
         };
 
