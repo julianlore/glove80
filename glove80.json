@@ -2,9 +2,9 @@
   "keyboard": "glove80",
   "firmware_api_version": "1",
   "locale": "en-US",
-  "uuid": "",
-  "parent_uuid": "51fabd90-23c3-4719-a197-7baf3b57ede5",
-  "date": 1749517416,
+  "uuid": "5f372d60-4a57-43e7-8bc9-9a9a3802eabc",
+  "parent_uuid": "922ae0b1-a241-4d1b-a0ee-de4c530fb5d9",
+  "date": 1749882010,
   "creator": "julianl",
   "title": "Glove80 ca-fr (CMS)",
   "notes": "",
@@ -2099,7 +2099,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "C_RW",
+            "value": "C_PREV",
             "params": []
           }
         ]
@@ -2108,7 +2108,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "C_PP",
+            "value": "C_PLAY",
             "params": []
           }
         ]
@@ -2117,7 +2117,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "C_FF",
+            "value": "C_NEXT",
             "params": []
           }
         ]
@@ -2126,7 +2126,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "K_VOL_DN",
+            "value": "C_VOL_DN",
             "params": []
           }
         ]
@@ -2135,7 +2135,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "K_VOL_UP",
+            "value": "C_VOL_UP",
             "params": []
           }
         ]
@@ -2646,7 +2646,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "C_RW",
+            "value": "C_PREV",
             "params": []
           }
         ]
@@ -2655,7 +2655,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "C_PP",
+            "value": "C_PLAY",
             "params": []
           }
         ]
@@ -2664,7 +2664,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "C_FF",
+            "value": "C_NEXT",
             "params": []
           }
         ]
@@ -2673,7 +2673,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "K_VOL_DN",
+            "value": "C_VOL_DN",
             "params": []
           }
         ]
@@ -2682,7 +2682,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "K_VOL_UP",
+            "value": "C_VOL_UP",
             "params": []
           }
         ]

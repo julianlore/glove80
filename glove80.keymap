@@ -528,7 +528,7 @@ behaviors {
         layer_Shortcut {
             bindings = <
      &trans      &trans      &trans      &trans        &trans                                                                               &trans       &trans  &trans         &trans  &trans
-     &trans    &kp C_RW    &kp C_PP    &kp C_FF  &kp K_VOL_DN  &kp K_VOL_UP                                                         &trans  &trans       &trans  &trans         &trans  &trans
+     &trans  &kp C_PREV  &kp C_PLAY  &kp C_NEXT  &kp C_VOL_DN  &kp C_VOL_UP                                                         &trans  &trans       &trans  &trans         &trans  &trans
      &trans  &kp LG(N6)  &kp LG(N5)      &trans    &kp LG(N7)    &kp LG(N4)                                                  &kp LS(LC(C))  &trans  &kp LS(INS)  &trans  &kp LS(LC(V))  &trans
      &trans  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)    &kp LG(N4)    &kp LG(N5)                                                         &trans  &trans       &trans  &trans         &trans  &trans
  &kp LA(F4)      &trans  &kp LG(N3)  &kp LG(N2)    &kp LG(N3)    &kp LG(N1)  &trans   &to 0  &trans  &trans  &trans  &trans         &trans  &trans       &trans  &trans         &trans  &trans
@@ -538,12 +538,12 @@ behaviors {
 
         layer_Mouse {
             bindings = <
- &trans    &trans          &trans          &trans           &trans                                                                                   &trans     &trans    &trans    &trans     &trans
- &trans  &kp C_RW        &kp C_PP        &kp C_FF     &kp K_VOL_DN    &kp K_VOL_UP                                                        &trans     &trans     &trans    &trans    &trans  &kp PSCRN
- &trans    &trans          &trans    &mmv MOVE_UP        &mkp MCLK    &msc SCRL_UP                                                      &mkp MB5     &trans     &trans    &trans    &trans     &trans
- &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN                                                      &mkp MB4  &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI     &trans
- &trans    &trans  &msc SCRL_LEFT          &trans  &msc SCRL_RIGHT          &trans  &trans     &to 0    &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans    &trans     &trans
- &trans    &trans        &mkp MB4          &trans         &mkp MB5                  &trans  &mkp MB1  &mkp MB2  &trans  &trans  &trans               &trans     &trans    &trans    &trans     &trans
+ &trans      &trans          &trans          &trans           &trans                                                                                   &trans     &trans    &trans    &trans     &trans
+ &trans  &kp C_PREV      &kp C_PLAY      &kp C_NEXT     &kp C_VOL_DN    &kp C_VOL_UP                                                        &trans     &trans     &trans    &trans    &trans  &kp PSCRN
+ &trans      &trans          &trans    &mmv MOVE_UP        &mkp MCLK    &msc SCRL_UP                                                      &mkp MB5     &trans     &trans    &trans    &trans     &trans
+ &trans      &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN                                                      &mkp MB4  &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI     &trans
+ &trans      &trans  &msc SCRL_LEFT          &trans  &msc SCRL_RIGHT          &trans  &trans     &to 0    &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans    &trans     &trans
+ &trans      &trans        &mkp MB4          &trans         &mkp MB5                  &trans  &mkp MB1  &mkp MB2  &trans  &trans  &trans               &trans     &trans    &trans    &trans     &trans
             >;
         };
 
