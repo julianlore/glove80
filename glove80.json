@@ -2,9 +2,9 @@
   "keyboard": "glove80",
   "firmware_api_version": "1",
   "locale": "en-US",
-  "uuid": "5f372d60-4a57-43e7-8bc9-9a9a3802eabc",
-  "parent_uuid": "922ae0b1-a241-4d1b-a0ee-de4c530fb5d9",
-  "date": 1749882010,
+  "uuid": "9890766f-59f0-4629-939b-95a34f0ceb9d",
+  "parent_uuid": "5f372d60-4a57-43e7-8bc9-9a9a3802eabc",
+  "date": 1749882760,
   "creator": "julianl",
   "title": "Glove80 ca-fr (CMS)",
   "notes": "",
@@ -340,14 +340,10 @@
         "params": []
       },
       {
-        "value": "&mt",
+        "value": "&kp",
         "params": [
           {
-            "value": "LGUI",
-            "params": []
-          },
-          {
-            "value": "A",
+            "value": "Q",
             "params": []
           }
         ]
@@ -449,14 +445,10 @@
         ]
       },
       {
-        "value": "&mt",
+        "value": "&kp",
         "params": [
           {
-            "value": "LGUI",
-            "params": []
-          },
-          {
-            "value": "SEMI",
+            "value": "P",
             "params": []
           }
         ]
@@ -480,10 +472,14 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&mt",
         "params": [
           {
-            "value": "Z",
+            "value": "LGUI",
+            "params": []
+          },
+          {
+            "value": "A",
             "params": []
           }
         ]
@@ -619,10 +615,14 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&mt",
         "params": [
           {
-            "value": "GRAVE",
+            "value": "LGUI",
+            "params": []
+          },
+          {
+            "value": "SEMI",
             "params": []
           }
         ]
@@ -644,7 +644,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "HOME",
+            "value": "Z",
             "params": []
           }
         ]
@@ -776,7 +776,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "RBKT",
+            "value": "GRAVE",
             "params": []
           }
         ]
@@ -1161,13 +1161,8 @@
         "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "K_APP",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&kp",
@@ -1311,8 +1306,13 @@
         ]
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LGUI",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&trans",
@@ -1801,30 +1801,25 @@
         ]
       },
       {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
         "value": "&kp",
         "params": [
           {
-            "value": "LS",
-            "params": [
-              {
-                "value": "SEMI",
-                "params": []
-              }
-            ]
+            "value": "BSLH",
+            "params": []
           }
         ]
-      },
-      {
-        "value": "&trans",
-        "params": []
-      },
-      {
-        "value": "&trans",
-        "params": []
-      },
-      {
-        "value": "&trans",
-        "params": []
       },
       {
         "value": "&BACKTICK",
@@ -1963,8 +1958,18 @@
         ]
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LS",
+            "params": [
+              {
+                "value": "SEMI",
+                "params": []
+              }
+            ]
+          }
+        ]
       },
       {
         "value": "&trans",
@@ -2303,7 +2308,7 @@
             "value": "LG",
             "params": [
               {
-                "value": "N1",
+                "value": "N6",
                 "params": []
               }
             ]
@@ -2405,8 +2410,18 @@
         ]
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LG",
+            "params": [
+              {
+                "value": "N1",
+                "params": []
+              }
+            ]
+          }
+        ]
       },
       {
         "value": "&kp",
@@ -2957,8 +2972,13 @@
         "params": []
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LGUI",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&trans",
@@ -3965,7 +3985,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "G",
+            "value": "N1",
             "params": []
           }
         ]
@@ -4068,7 +4088,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "H",
+            "value": "G",
             "params": []
           }
         ]
@@ -4149,7 +4169,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "SEMI",
+            "value": "P",
             "params": []
           }
         ]
@@ -4171,7 +4191,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "Z",
+            "value": "H",
             "params": []
           }
         ]
@@ -4296,7 +4316,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "FSLH",
+            "value": "SEMI",
             "params": []
           }
         ]
@@ -4310,8 +4330,13 @@
         "params": []
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "Z",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&kp",
@@ -4392,8 +4417,13 @@
         "params": []
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "FSLH",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&trans",
@@ -4690,7 +4720,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "H",
+            "value": "Y",
             "params": []
           }
         ]
@@ -4771,7 +4801,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "G",
+            "value": "T",
             "params": []
           }
         ]
@@ -4788,7 +4818,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "N",
+            "value": "H",
             "params": []
           }
         ]
@@ -4893,7 +4923,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "B",
+            "value": "G",
             "params": []
           }
         ]
@@ -4907,8 +4937,13 @@
         "params": []
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&trans",
@@ -4964,8 +4999,13 @@
         "params": []
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "B",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&trans",
