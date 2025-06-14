@@ -2,14 +2,14 @@
   "keyboard": "glove80",
   "firmware_api_version": "1",
   "locale": "en-US",
-  "uuid": "9890766f-59f0-4629-939b-95a34f0ceb9d",
-  "parent_uuid": "5f372d60-4a57-43e7-8bc9-9a9a3802eabc",
-  "date": 1749882760,
+  "uuid": "",
+  "parent_uuid": "4d720005-214a-4fae-87c4-bb503c0608b7",
+  "date": 1749884114,
   "creator": "julianl",
   "title": "Glove80 ca-fr (CMS)",
   "notes": "",
   "tags": [],
-  "custom_defined_behaviors": "#include <dt-bindings/zmk/behaviors.h>\n\nbehaviors {\n        mt: mod_tap {\n            compatible = \"zmk,behavior-hold-tap\";\n            #binding-cells = <2>;\n            flavor = \"tap-preferred\";\n            tapping-term-ms = <250>;\n            require-prior-idle-ms = <125>;\n            bindings = <&kp>, <&kp>;\n            display-name = \"Mod-Tap\";\n        };\n\n        mo_tog: behavior_mo_tog {\n            compatible = \"zmk,behavior-hold-tap\";\n            #binding-cells = <2>;\n            flavor = \"hold-preferred\";\n            tapping-term-ms = <200>;\n            bindings = <&mo>, <&tog>;\n        };\n    };",
+  "custom_defined_behaviors": "#include <dt-bindings/zmk/behaviors.h>\n\nbehaviors {\n        mt: mod_tap {\n            compatible = \"zmk,behavior-hold-tap\";\n            #binding-cells = <2>;\n            flavor = \"tap-preferred\";\n            tapping-term-ms = <250>;\n            require-prior-idle-ms = <125>;\n            bindings = <&kp>, <&kp>;\n            display-name = \"Mod-Tap\";\n        };\n\n        mo_tog: behavior_mo_tog {\n            compatible = \"zmk,behavior-hold-tap\";\n            #binding-cells = <2>;\n            flavor = \"hold-preferred\";\n            tapping-term-ms = <200>;\n            bindings = <&mo>, <&tog>;\n        };\n\n        mt_hold_pref: mod_tap_prefer_hold {\n            compatible = \"zmk,behavior-hold-tap\";\n            #binding-cells = <2>;\n            flavor = \"hold-preferred\";\n            tapping-term-ms = <200>;\n            bindings = <&kp>, <&kp>;\n            display-name = \"Mod-Tap Hold pref\";\n        };\n\n        lt_hold_pref: layer_tap_prefer_hold {\n            compatible = \"zmk,behavior-hold-tap\";\n            #binding-cells = <2>;\n            flavor = \"hold-preferred\";\n            tapping-term-ms = <200>;\n            bindings = <&mo>, <&kp>;\n            display-name = \"Layer-Tap Hold pref\";\n        };\n    };",
   "custom_devicetree": "/ {\n    underglow-layer {\n        compatible  = \"zmk,underglow-layer\";\n\n        // color definitions from QMK\n        // https://github.com/qmk/qmk_firmware/blob/master/quantum/color.h\n        //\n        #define RGB_AZURE     0x99F5FF // #99F5FF\n        #define RGB_BLACK     0x000000 // #000000\n        #define RGB_BLUE      0x0000FF // #0000FF\n        #define RGB_CHARTRSE  0x80FF00 // #80FF00\n        #define RGB_CORAL     0xFF7C4D // #FF7C4D\n        #define RGB_CYAN      0x00FFFF // #00FFFF\n        #define RGB_GOLD      0xFFD900 // #FFD900\n        #define RGB_GOLDNROD  0xD9A521 // #D9A521\n        #define RGB_GREEN     0x00FF00 // #00FF00\n        #define RGB_MAGENTA   0xFF00FF // #FF00FF\n        #define RGB_ORANGE    0xFF8000 // #FF8000\n        #define RGB_PINK      0xFF80BF // #FF80BF\n        #define RGB_PURPLE    0x7A00FF // #7A00FF\n        #define RGB_RED       0xFF0000 // #FF0000\n        #define RGB_SPRINGRN  0x00FF80 // #00FF80\n        #define RGB_TEAL      0x008080 // #008080\n        #define RGB_TURQUOIS  0x476E6A // #476E6A\n        #define RGB_WHITE     0xFFFFFF // #FFFFFF\n        #define RGB_YELLOW    0xFFFF00 // #FFFF00\n\n        // underglow for the colors above\n        //\n        #define AZURE     &ug RGB_AZURE\n        #define BLACK     &ug RGB_BLACK\n        #define BLUE      &ug RGB_BLUE\n        #define CHARTRSE  &ug RGB_CHARTRSE\n        #define CORAL     &ug RGB_CORAL\n        #define CYAN      &ug RGB_CYAN\n        #define GOLD      &ug RGB_GOLD\n        #define GOLDNROD  &ug RGB_GOLDNROD\n        #define GREEN     &ug RGB_GREEN\n        #define MAGENTA   &ug RGB_MAGENTA\n        #define ORANGE    &ug RGB_ORANGE\n        #define PINK      &ug RGB_PINK\n        #define PURPLE    &ug RGB_PURPLE\n        #define RED       &ug RGB_RED\n        #define SPRINGRN  &ug RGB_SPRINGRN\n        #define TEAL      &ug RGB_TEAL\n        #define TURQUOIS  &ug RGB_TURQUOIS\n        #define WHITE     &ug RGB_WHITE\n        #define YELLOW    &ug RGB_YELLOW\n        #define ________  &ug RGB_BLACK\n\n        /*\n        Template {\n            bindings = <\n                ________ ________ ________ ________ ________                                                                          ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________ ________ ________ ________  ________ ________ ________ ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________          ________ ________ ________  ________ ________ ________          ________ ________ ________ ________ ________\n        >;\n            layer-id = <LAYER_Template>;\n        };\n        */\n        nav {\n            bindings = <\n                GREEN    GREEN    GREEN    GREEN    GREEN                                                                             GREEN    GREEN    GREEN    GREEN    GREEN\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________ ________ ________ ________  ________ ________ ________ ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________          ________ ________ ________  ________ ________ ________          ________ ________ ________ ________ ________\n        >;\n            layer-id = <LAYER_Nav>;\n        };\n\n        symbol {\n            bindings = <\n                PINK     PINK     PINK     PINK     PINK                                                                              PINK     PINK     PINK     PINK     PINK\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________ ________ ________ ________  ________ ________ ________ ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________          ________ ________ ________  ________ ________ ________          ________ ________ ________ ________ ________\n        >;\n            layer-id = <LAYER_Symbol>;\n        };\n\n        shortcut {\n            bindings = <\n                ORANGE   ORANGE   ORANGE   ORANGE   ORANGE                                                                            ORANGE   ORANGE   ORANGE   ORANGE   ORANGE\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________ ________ ________ ________  ________ ________ ________ ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________          ________ ________ ________  ________ ________ ________          ________ ________ ________ ________ ________\n        >;\n            layer-id = <LAYER_Shortcut>;\n        };\n\n        mouse {\n            bindings = <\n                YELLOW   YELLOW   YELLOW   YELLOW   YELLOW                                                                            YELLOW   YELLOW   YELLOW   YELLOW   YELLOW\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________ ________ ________ ________  ________ ________ ________ ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________          ________ ________ ________  ________ ________ ________          ________ ________ ________ ________ ________\n        >;\n            layer-id = <LAYER_Mouse>;\n        };\n\n        magic {\n            bindings = <\n                MAGENTA  MAGENTA  MAGENTA  MAGENTA  MAGENTA                                                                           MAGENTA  MAGENTA  MAGENTA  MAGENTA  MAGENTA\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________ ________ ________ ________  ________ ________ ________ ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________          ________ ________ ________  ________ ________ ________          ________ ________ ________ ________ ________\n        >;\n            layer-id = <LAYER_Magic>;\n        };\n\n        gaming {\n            bindings = <\n                RED      RED      RED      RED      RED                                                                               ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________ ________ ________ ________  ________ ________ ________ ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________          ________ ________ ________  ________ ________ ________          ________ ________ ________ ________ ________\n        >;\n            layer-id = <LAYER_Gaming>;\n        };\n\n        mirror {\n            bindings = <\n                WHITE    WHITE    WHITE    WHITE    WHITE                                                                             WHITE    WHITE    WHITE    WHITE    WHITE\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________                                                        ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________ ________ ________ ________ ________  ________ ________ ________ ________ ________ ________ ________ ________ ________\n                ________ ________ ________ ________ ________          ________ ________ ________  ________ ________ ________          ________ ________ ________ ________ ________\n        >;\n            layer-id = <LAYER_Mirror>;\n        };\n    };\n};",
   "config_parameters": [
     {
@@ -524,7 +524,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "F22",
+            "value": "TAB",
             "params": []
           }
         ]
@@ -539,14 +539,10 @@
         ]
       },
       {
-        "value": "&lt",
+        "value": "&kp",
         "params": [
           {
-            "value": "8",
-            "params": []
-          },
-          {
-            "value": "RET",
+            "value": "F22",
             "params": []
           }
         ]
@@ -653,15 +649,6 @@
         "value": "&kp",
         "params": [
           {
-            "value": "END",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
             "value": "F14",
             "params": []
           }
@@ -671,7 +658,7 @@
         "value": "&tog",
         "params": [
           {
-            "value": 7,
+            "value": "7",
             "params": []
           }
         ]
@@ -680,7 +667,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "TAB",
+            "value": "F22",
             "params": []
           }
         ]
@@ -698,7 +685,20 @@
         "value": "&mo",
         "params": [
           {
-            "value": 1,
+            "value": "1",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&lt",
+        "params": [
+          {
+            "value": "8",
+            "params": []
+          },
+          {
+            "value": "RET",
             "params": []
           }
         ]
@@ -713,19 +713,19 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "BSPC",
+            "value": "&lt_hold_pref 2 ENTER",
             "params": []
           }
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "LSHFT",
+            "value": "&mt_hold_pref LSHFT BACKSPACE",
             "params": []
           }
         ]
@@ -1353,8 +1353,13 @@
         "params": []
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&to",
+        "params": [
+          {
+            "value": "0",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&to",
@@ -1375,12 +1380,22 @@
         ]
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "ESC",
+            "params": []
+          }
+        ]
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "DEL",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&trans",
@@ -1996,8 +2011,13 @@
         "params": []
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LSHFT",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&kp",
@@ -2027,8 +2047,13 @@
         ]
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&to",
+        "params": [
+          {
+            "value": "0",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&trans",
@@ -3015,10 +3040,6 @@
         ]
       },
       {
-        "value": "&trans",
-        "params": []
-      },
-      {
         "value": "&mkp",
         "params": [
           {
@@ -3035,6 +3056,10 @@
             "params": []
           }
         ]
+      },
+      {
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&trans",
@@ -4236,7 +4261,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "F22",
+            "value": "LCTRL",
             "params": []
           }
         ]
@@ -4254,7 +4279,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "TAB",
+            "value": "F22",
             "params": []
           }
         ]
@@ -4342,16 +4367,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "F11",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "F12",
+            "value": "TAB",
             "params": []
           }
         ]
@@ -4360,7 +4376,7 @@
         "value": "&to",
         "params": [
           {
-            "value": 0,
+            "value": "0",
             "params": []
           }
         ]
@@ -4369,7 +4385,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "LCTRL",
+            "value": "F22",
             "params": []
           }
         ]
@@ -4388,6 +4404,15 @@
         "params": [
           {
             "value": "LSHFT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "TAB",
             "params": []
           }
         ]
