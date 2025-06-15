@@ -27,15 +27,18 @@
           firmware = import glove80-zmk { inherit pkgs; };
 
           keymap = ./glove80.keymap;
+          kconfig = ./glove80.conf;
 
           glove80_left = firmware.zmk.override {
             board = "glove80_lh";
             inherit keymap;
+            inherit kconfig;
           };
 
           glove80_right = firmware.zmk.override {
             board = "glove80_rh";
             inherit keymap;
+            inherit kconfig;
           };
         in firmware.combine_uf2 glove80_left glove80_right;
 
