@@ -340,10 +340,14 @@
         "params": []
       },
       {
-        "value": "&kp",
+        "value": "&mt",
         "params": [
           {
-            "value": "Q",
+            "value": "LGUI",
+            "params": []
+          },
+          {
+            "value": "A",
             "params": []
           }
         ]
@@ -445,10 +449,14 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&mt",
         "params": [
           {
-            "value": "P",
+            "value": "LGUI",
+            "params": []
+          },
+          {
+            "value": "SEMI",
             "params": []
           }
         ]
@@ -472,14 +480,10 @@
         ]
       },
       {
-        "value": "&mt",
+        "value": "&kp",
         "params": [
           {
-            "value": "LGUI",
-            "params": []
-          },
-          {
-            "value": "A",
+            "value": "Z",
             "params": []
           }
         ]
@@ -611,14 +615,10 @@
         ]
       },
       {
-        "value": "&mt",
+        "value": "&kp",
         "params": [
           {
-            "value": "LGUI",
-            "params": []
-          },
-          {
-            "value": "SEMI",
+            "value": "GRAVE",
             "params": []
           }
         ]
@@ -640,7 +640,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "Z",
+            "value": "HOME",
             "params": []
           }
         ]
@@ -776,7 +776,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "GRAVE",
+            "value": "RBKT",
             "params": []
           }
         ]
@@ -1161,8 +1161,13 @@
         "params": []
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "K_APP",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&kp",
@@ -1306,13 +1311,8 @@
         ]
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "LGUI",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&trans",
@@ -1816,25 +1816,30 @@
         ]
       },
       {
-        "value": "&trans",
-        "params": []
-      },
-      {
-        "value": "&trans",
-        "params": []
-      },
-      {
-        "value": "&trans",
-        "params": []
-      },
-      {
         "value": "&kp",
         "params": [
           {
-            "value": "BSLH",
-            "params": []
+            "value": "LS",
+            "params": [
+              {
+                "value": "SEMI",
+                "params": []
+              }
+            ]
           }
         ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&BACKTICK",
@@ -1973,18 +1978,8 @@
         ]
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "LS",
-            "params": [
-              {
-                "value": "SEMI",
-                "params": []
-              }
-            ]
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&trans",
@@ -2333,7 +2328,7 @@
             "value": "LG",
             "params": [
               {
-                "value": "N6",
+                "value": "N1",
                 "params": []
               }
             ]
@@ -2435,18 +2430,8 @@
         ]
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "LG",
-            "params": [
-              {
-                "value": "N1",
-                "params": []
-              }
-            ]
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&kp",
@@ -2997,13 +2982,8 @@
         "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "LGUI",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&trans",
@@ -4010,7 +3990,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "N1",
+            "value": "G",
             "params": []
           }
         ]
@@ -4113,7 +4093,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "G",
+            "value": "H",
             "params": []
           }
         ]
@@ -4194,7 +4174,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "P",
+            "value": "SEMI",
             "params": []
           }
         ]
@@ -4216,7 +4196,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "H",
+            "value": "Z",
             "params": []
           }
         ]
@@ -4341,7 +4321,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "SEMI",
+            "value": "FSLH",
             "params": []
           }
         ]
@@ -4355,13 +4335,8 @@
         "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "Z",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&kp",
@@ -4442,13 +4417,8 @@
         "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "FSLH",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&trans",
@@ -4745,7 +4715,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "Y",
+            "value": "H",
             "params": []
           }
         ]
@@ -4826,7 +4796,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "T",
+            "value": "G",
             "params": []
           }
         ]
@@ -4843,7 +4813,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "H",
+            "value": "N",
             "params": []
           }
         ]
@@ -4948,7 +4918,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "G",
+            "value": "B",
             "params": []
           }
         ]
@@ -4962,13 +4932,8 @@
         "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "N",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&trans",
@@ -5024,13 +4989,8 @@
         "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "B",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&trans",
