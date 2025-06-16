@@ -2,9 +2,9 @@
   "keyboard": "glove80",
   "firmware_api_version": "1",
   "locale": "en-US",
-  "uuid": "9875379a-4c3c-4949-9c72-f85f2a6ccef8",
-  "parent_uuid": "276517b7-d470-4e8e-a7ce-697a6050f401",
-  "date": 1749981078,
+  "uuid": "28ffba4a-177e-460e-9502-43f4edc7a1a4",
+  "parent_uuid": "9875379a-4c3c-4949-9c72-f85f2a6ccef8",
+  "date": 1749984936,
   "creator": "julianl",
   "title": "Glove80 ca-fr (CMS)",
   "notes": "",
@@ -336,8 +336,13 @@
         ]
       },
       {
-        "value": "&none",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "ESC",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&mt",
@@ -471,10 +476,10 @@
         ]
       },
       {
-        "value": "&sk",
+        "value": "&tog",
         "params": [
           {
-            "value": "LSHFT",
+            "value": "7",
             "params": []
           }
         ]
@@ -4184,10 +4189,10 @@
         "params": []
       },
       {
-        "value": "&kp",
+        "value": "&tog",
         "params": [
           {
-            "value": "T",
+            "value": "0",
             "params": []
           }
         ]
@@ -4331,8 +4336,13 @@
         "params": []
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "T",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&kp",
