@@ -517,7 +517,7 @@ behaviors {
                 &none       &kp Q       &kp W        &kp E        &kp R   &kp T                                                                                                                            &kp Y        &kp U             &kp I       &kp O          &kp P   &kp BSLH
                 &none  &mt LGUI A  &mt LALT S  &mt LSHFT D  &mt LCTRL F   &kp G                                                                                                                            &kp H  &mt LCTRL J       &mt LSHFT K  &mt LALT L  &mt LGUI SEMI    &kp SQT
             &sk LSHFT       &kp Z       &kp X        &kp C        &kp V   &kp B    &kp TAB  &mo_tog LAYER_Shortcut LAYER_Mouse    &kp F22  &kp RET              &kp LSHFT                          &sl 6   &kp N        &kp M         &kp COMMA     &kp DOT      &kp GRAVE  &kp PG_UP
- &magic LAYER_Magic 0    &kp HOME     &kp F14       &tog 7      &kp F22          &kp SPACE                               &mo 1  &lt 8 RET    &sl 2  &lt_hold_pref 2 ENTER  &mt_hold_pref LSHFT BACKSPACE            &kp LC(A)  &kp LC(LA(HOME))    &kp LBKT       &kp RBKT  &kp PG_DN
+ &magic LAYER_Magic 0       &kp Z     &kp F14       &tog 7      &kp F22          &kp SPACE                               &mo 1  &lt 8 RET    &sl 2  &lt_hold_pref 2 ENTER  &mt_hold_pref LSHFT BACKSPACE            &kp LC(A)  &kp LC(LA(HOME))    &kp LBKT      &kp GRAVE  &kp PG_DN
             >;
         };
 
@@ -594,7 +594,7 @@ behaviors {
  &kp ESC   &kp G    &kp Q   &kp W    &kp E   &kp R                                                          &kp Y   &kp U      &kp I    &kp O     &kp P   &trans
  &kp ESC   &kp H    &kp A   &kp S    &kp D   &kp F                                                          &kp H   &kp J      &kp K    &kp L  &kp SEMI   &trans
    &kp T   &kp Z    &kp X   &kp C    &kp V   &kp B  &kp LCTRL      &sl 8  &kp F22   &to 0  &trans  &trans   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH   &trans
-  &trans  &trans  &kp TAB   &to 0  &kp F22          &kp SPACE  &kp LSHFT  &kp TAB  &trans  &trans  &trans          &trans     &trans   &trans    &trans   &trans
+  &trans   &kp Z  &kp TAB   &to 0  &kp F22          &kp SPACE  &kp LSHFT  &kp TAB  &trans  &trans  &trans          &trans     &trans   &trans    &trans   &trans
             >;
         };
 
@@ -605,7 +605,7 @@ behaviors {
  &trans   &kp Y   &kp U      &kp I     &kp O      &kp P                                                   &kp Q   &kp W   &kp E   &kp R   &kp T   &trans
  &trans   &kp H   &kp J      &kp K     &kp L   &kp SEMI                                                   &kp A   &kp S   &kp D   &kp F   &kp G   &trans
  &trans   &kp N   &kp M  &kp COMMA   &kp DOT  &kp GRAVE  &trans   &none  &trans  &trans  &trans  &trans   &kp Z   &kp X   &kp C   &kp V   &kp B   &trans
- &trans  &trans  &trans     &trans  &kp BSPC             &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans   &trans
+ &trans   &kp N  &trans     &trans  &kp BSPC             &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans   &kp B   &trans
             >;
         };
 
