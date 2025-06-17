@@ -548,10 +548,14 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&lt",
         "params": [
           {
-            "value": "F22",
+            "value": "8",
+            "params": []
+          },
+          {
+            "value": "RET",
             "params": []
           }
         ]
@@ -696,14 +700,10 @@
         ]
       },
       {
-        "value": "&lt",
+        "value": "&kp",
         "params": [
           {
-            "value": "8",
-            "params": []
-          },
-          {
-            "value": "RET",
+            "value": "F22",
             "params": []
           }
         ]
