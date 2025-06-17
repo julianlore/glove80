@@ -2,8 +2,8 @@
   "keyboard": "glove80",
   "firmware_api_version": "1",
   "locale": "en-US",
-  "uuid": "65459ad5-3c49-4b9b-b558-22f4451683a9",
-  "parent_uuid": "28ffba4a-177e-460e-9502-43f4edc7a1a4",
+  "uuid": "",
+  "parent_uuid": "65459ad5-3c49-4b9b-b558-22f4451683a9",
   "date": 1749985095,
   "creator": "julianl",
   "title": "Glove80 ca-fr (CMS)",
@@ -4189,7 +4189,7 @@
         "params": []
       },
       {
-        "value": "&tog",
+        "value": "&to",
         "params": [
           {
             "value": "0",
