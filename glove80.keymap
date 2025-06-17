@@ -446,7 +446,7 @@ behaviors {
             #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
+            quick-tap-ms = <250>;
             bindings = <&kp>, <&kp>;
             display-name = "Mod-Tap Hold pref";
         };
@@ -456,6 +456,7 @@ behaviors {
             #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
+            quick-tap-ms = <250>;
             bindings = <&mo>, <&kp>;
             display-name = "Layer-Tap Hold pref";
         };
