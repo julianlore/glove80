@@ -3,7 +3,7 @@
   "firmware_api_version": "1",
   "locale": "en-US",
   "uuid": "",
-  "parent_uuid": "05892f01-7ad5-4ccd-b8aa-5499515eec50",
+  "parent_uuid": "ffe3bc03-2e0d-4ee7-b9b2-4b3f897d44c9",
   "date": 1751515738,
   "creator": "julianl",
   "title": "Glove80 ca-fr (CMS)",
@@ -485,8 +485,12 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&mt",
         "params": [
+          {
+            "value": "LSHFT",
+            "params": []
+          },
           {
             "value": "Z",
             "params": []
@@ -494,8 +498,12 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&lt",
         "params": [
+          {
+            "value": "6",
+            "params": []
+          },
           {
             "value": "X",
             "params": []
@@ -503,8 +511,12 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&lt",
         "params": [
+          {
+            "value": "2",
+            "params": []
+          },
           {
             "value": "C",
             "params": []
@@ -579,10 +591,10 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&sl",
         "params": [
           {
-            "value": "LSHFT",
+            "value": "6",
             "params": []
           }
         ]
@@ -606,8 +618,12 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&lt",
         "params": [
+          {
+            "value": "2",
+            "params": []
+          },
           {
             "value": "COMMA",
             "params": []
@@ -615,8 +631,12 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&lt",
         "params": [
+          {
+            "value": "6",
+            "params": []
+          },
           {
             "value": "DOT",
             "params": []
@@ -624,8 +644,12 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&mt",
         "params": [
+          {
+            "value": "LSHFT",
+            "params": []
+          },
           {
             "value": "GRAVE",
             "params": []
