@@ -47,7 +47,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "F2",
+            "value": "N1",
             "params": []
           }
         ]
@@ -56,7 +56,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "F3",
+            "value": "N2",
             "params": []
           }
         ]
@@ -65,7 +65,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "F4",
+            "value": "N3",
             "params": []
           }
         ]
@@ -74,7 +74,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "F5",
+            "value": "N4",
             "params": []
           }
         ]
@@ -83,7 +83,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "F6",
+            "value": "N7",
             "params": []
           }
         ]
@@ -92,7 +92,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "F7",
+            "value": "N8",
             "params": []
           }
         ]
@@ -101,7 +101,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "F8",
+            "value": "N9",
             "params": []
           }
         ]
@@ -110,7 +110,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "F9",
+            "value": "N0",
             "params": []
           }
         ]
@@ -119,7 +119,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "F10",
+            "value": "MINUS",
             "params": []
           }
         ]
