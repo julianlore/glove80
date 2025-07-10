@@ -3687,8 +3687,12 @@
         "params": []
       },
       {
-        "value": "&kp",
+        "value": "&mt",
         "params": [
+          {
+            "value": "LGUI",
+            "params": []
+          },
           {
             "value": "N1",
             "params": []
@@ -3696,8 +3700,12 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&mt",
         "params": [
+          {
+            "value": "LALT",
+            "params": []
+          },
           {
             "value": "N2",
             "params": []
@@ -3705,8 +3713,12 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&mt",
         "params": [
+          {
+            "value": "LSHFT",
+            "params": []
+          },
           {
             "value": "N3",
             "params": []
@@ -3714,8 +3726,12 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&mt",
         "params": [
+          {
+            "value": "LCTRL",
+            "params": []
+          },
           {
             "value": "N4",
             "params": []
@@ -3741,8 +3757,12 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&mt",
         "params": [
+          {
+            "value": "LCTRL",
+            "params": []
+          },
           {
             "value": "N7",
             "params": []
@@ -3750,8 +3770,12 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&mt",
         "params": [
+          {
+            "value": "LSHFT",
+            "params": []
+          },
           {
             "value": "N8",
             "params": []
@@ -3759,8 +3783,12 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&mt",
         "params": [
+          {
+            "value": "LALT",
+            "params": []
+          },
           {
             "value": "N9",
             "params": []
@@ -3768,8 +3796,12 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&mt",
         "params": [
+          {
+            "value": "LGUI",
+            "params": []
+          },
           {
             "value": "N0",
             "params": []
