@@ -532,7 +532,7 @@ behaviors {
                 &none        &kp Q       &kp W        &kp E        &kp R   &kp T                                                                                                                            &kp Y        &kp U             &kp I       &kp O            &kp P   &kp BSLH
               &kp ESC   &mt LGUI A  &mt LALT S  &mt LSHFT D  &mt LCTRL F   &kp G                                                                                                                            &kp H  &mt LCTRL J       &mt LSHFT K  &mt LALT L    &mt LGUI SEMI    &kp SQT
                &tog 7  &mt LSHFT Z     &lt 6 X      &lt 2 C        &kp V   &kp B    &kp TAB  &mo_tog LAYER_Shortcut LAYER_Mouse  &lt 8 RET  &kp RET                  &mo 2                          &sl 6   &kp N        &kp M       &lt 2 COMMA   &lt 6 DOT  &mt LSHFT GRAVE  &kp PG_UP
- &magic LAYER_Magic 0        &kp Z     &kp F14       &tog 7      &kp F22          &kp SPACE                               &mo 1    &kp F22    &sl 2  &lt_hold_pref 2 ENTER  &mt_hold_pref LSHFT BACKSPACE            &kp LC(A)  &kp LC(LA(HOME))    &kp LBKT        &kp GRAVE  &kp PG_DN
+ &magic LAYER_Magic 0        &kp Z     &kp F14       &tog 7      &kp F22          &kp SPACE                               &mo 1    &kp F22  &kp F22  &lt_hold_pref 2 ENTER  &mt_hold_pref LSHFT BACKSPACE            &kp LC(A)  &kp LC(LA(HOME))    &kp LBKT        &kp GRAVE  &kp PG_DN
             >;
         };
 
