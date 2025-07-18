@@ -20,7 +20,9 @@
 #include <dt-bindings/zmk/rgb.h>
 
 /* On demand includes */
+#include <dt-bindings/zmk/input_transform.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <input/processors.dtsi>
 
 /* Automatically generated layer name #define */
 #define LAYER_Base 0
@@ -32,6 +34,8 @@
 #define LAYER_Num 6
 #define LAYER_Gaming 7
 #define LAYER_Mirror 8
+#define LAYER_Mouse_fast 9
+#define LAYER_Mouse_warp 10
 
 /* To deal with the situation where there is no Lower layer, to keep &lower happy */
 #ifndef LAYER_Lower
@@ -202,7 +206,27 @@
 };
 
 /* Input Listeners */
+&mmv_input_listener {
+    Mouse_fast {
+        layers = <9>;
+        input-processors = <&zip_xy_scaler 3 1>;
+    };
+    Mouse_warp {
+        layers = <10>;
+        input-processors = <&zip_xy_scaler 12 1>;
+    };
+};
 
+&msc_input_listener {
+    Mouse_fast {
+        layers = <9>;
+        input-processors = <&zip_scroll_scaler 3 1>;
+    };
+    Mouse_warp {
+        layers = <10>;
+        input-processors = <&zip_scroll_scaler 12 1>;
+    };
+};
 
 /* System behavior and Macros */
 / {
@@ -575,8 +599,8 @@ behaviors {
  &trans  &kp C_PREV      &kp C_PLAY      &kp C_NEXT     &kp C_VOL_DN    &kp C_VOL_UP                                                        &trans     &trans     &trans    &trans    &trans  &kp PSCRN
  &trans      &trans          &trans    &mmv MOVE_UP        &mkp MCLK    &msc SCRL_UP                                                      &mkp MB5     &trans     &trans    &trans    &trans     &trans
  &trans      &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN                                                      &mkp MB4  &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI     &trans
- &trans      &trans  &msc SCRL_LEFT          &trans  &msc SCRL_RIGHT          &trans    &trans     &to 0  &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans    &trans     &trans
- &trans      &trans        &mkp MB4          &trans         &mkp MB5                  &mkp MB1  &mkp MB2  &trans  &trans  &trans  &trans               &trans     &trans    &trans    &trans     &trans
+ &trans      &trans  &msc SCRL_LEFT          &trans  &msc SCRL_RIGHT          &trans     &mo 9     &to 0  &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans    &trans     &trans
+ &trans      &trans        &mkp MB4          &trans         &mkp MB5                  &mkp MB1  &mkp MB2  &mo 10  &trans  &trans  &trans               &trans     &trans    &trans    &trans     &trans
             >;
         };
 
@@ -621,6 +645,28 @@ behaviors {
  &trans   &kp H   &kp J      &kp K     &kp L   &kp SEMI                                                   &kp A   &kp S   &kp D   &kp F   &kp G   &trans
  &trans   &kp N   &kp M  &kp COMMA   &kp DOT  &kp GRAVE  &trans   &none  &trans  &trans  &trans  &trans   &kp Z   &kp X   &kp C   &kp V   &kp B   &trans
  &trans   &kp N  &trans     &trans  &kp BSPC             &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans   &kp B   &trans
+            >;
+        };
+
+        layer_Mouse_fast {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_Mouse_warp {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
