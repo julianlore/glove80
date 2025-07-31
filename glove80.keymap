@@ -587,7 +587,7 @@ behaviors {
 
         layer_Nav {
             bindings = <
- &trans     &trans          &trans          &trans           &trans                                                                                       &trans            &trans           &trans     &trans  &kp PSCRN
+ &trans    &kp F11         &kp F12         &kp F11          &kp F12                                                                                      &kp F11           &kp F12          &kp F11    &kp F12  &kp PSCRN
  &trans     &kp F1          &kp F2          &kp F3           &kp F4     &kp F5                                                                 &kp F6     &kp F7            &kp F8           &kp F9    &kp F10  &kp PSCRN
  &trans    &kp ESC        &kp HOME    &kp UP_ARROW          &kp END  &kp PG_UP                                                              &kp LC(C)  &kp LC(Z)           &kp INS            &none  &kp LC(V)  &kp PSCRN
  &trans     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN                                                            &kp LS(INS)  &kp LCTRL         &kp LSHFT         &kp LALT   &kp LGUI     &trans
