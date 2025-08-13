@@ -2,9 +2,9 @@
   "keyboard": "glove80",
   "firmware_api_version": "1",
   "locale": "en-US",
-  "uuid": "9a00ea30-41af-4c1d-ac69-c8a162d9bab8",
-  "parent_uuid": "fd5432ee-1e88-4e47-9dd5-b9c5f1797dd5",
-  "date": 1753926649,
+  "uuid": "",
+  "parent_uuid": "9a00ea30-41af-4c1d-ac69-c8a162d9bab8",
+  "date": 1753652734,
   "creator": "julianl",
   "title": "Glove80 ca-fr (CMS)",
   "notes": "",
@@ -488,12 +488,8 @@
         ]
       },
       {
-        "value": "&mt",
+        "value": "&kp",
         "params": [
-          {
-            "value": "LSHFT",
-            "params": []
-          },
           {
             "value": "Z",
             "params": []
@@ -501,12 +497,8 @@
         ]
       },
       {
-        "value": "&lt",
+        "value": "&kp",
         "params": [
-          {
-            "value": "6",
-            "params": []
-          },
           {
             "value": "X",
             "params": []
@@ -514,12 +506,8 @@
         ]
       },
       {
-        "value": "&lt",
+        "value": "&kp",
         "params": [
-          {
-            "value": "2",
-            "params": []
-          },
           {
             "value": "C",
             "params": []
@@ -621,12 +609,8 @@
         ]
       },
       {
-        "value": "&lt",
+        "value": "&kp",
         "params": [
-          {
-            "value": "2",
-            "params": []
-          },
           {
             "value": "COMMA",
             "params": []
@@ -634,12 +618,8 @@
         ]
       },
       {
-        "value": "&lt",
+        "value": "&kp",
         "params": [
-          {
-            "value": "6",
-            "params": []
-          },
           {
             "value": "DOT",
             "params": []
@@ -647,12 +627,8 @@
         ]
       },
       {
-        "value": "&mt",
+        "value": "&kp",
         "params": [
-          {
-            "value": "LSHFT",
-            "params": []
-          },
           {
             "value": "GRAVE",
             "params": []
