@@ -3,7 +3,7 @@
   "firmware_api_version": "1",
   "locale": "en-US",
   "uuid": "",
-  "parent_uuid": "d33855d6-5534-4120-8365-eac04e17c3b6",
+  "parent_uuid": "c83aad1d-22ae-4b12-a8f6-4a2ba72c22a0",
   "date": 1753652734,
   "creator": "julianl",
   "title": "Glove80 ca-fr (CMS)",
@@ -4118,6 +4118,15 @@
         "value": "&kp",
         "params": [
           {
+            "value": "ESC",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
             "value": "F1",
             "params": []
           }
@@ -4154,24 +4163,6 @@
         "value": "&kp",
         "params": [
           {
-            "value": "F5",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "F6",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
             "value": "F7",
             "params": []
           }
@@ -4200,6 +4191,15 @@
         "params": [
           {
             "value": "F10",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F11",
             "params": []
           }
         ]
