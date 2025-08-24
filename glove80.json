@@ -4,7 +4,7 @@
   "locale": "en-US",
   "uuid": "",
   "parent_uuid": "41b641db-05ad-4bc7-83db-e382f2bb7129",
-  "date": 1753652734,
+  "date": 1755047531,
   "creator": "julianl",
   "title": "Glove80 ca-fr (CMS)",
   "notes": "",
@@ -1371,23 +1371,28 @@
         "params": []
       },
       {
-        "value": "&trans",
-        "params": []
-      },
-      {
-        "value": "&kp",
+        "value": "&mkp",
         "params": [
           {
-            "value": "F11",
+            "value": "MB4",
             "params": []
           }
         ]
       },
       {
-        "value": "&kp",
+        "value": "&mkp",
         "params": [
           {
-            "value": "F12",
+            "value": "MB4",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&mkp",
+        "params": [
+          {
+            "value": "MB5",
             "params": []
           }
         ]
@@ -2605,16 +2610,46 @@
         "params": []
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LA",
+            "params": [
+              {
+                "value": "LEFT",
+                "params": []
+              }
+            ]
+          }
+        ]
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LA",
+            "params": [
+              {
+                "value": "LEFT",
+                "params": []
+              }
+            ]
+          }
+        ]
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LA",
+            "params": [
+              {
+                "value": "RIGHT",
+                "params": []
+              }
+            ]
+          }
+        ]
       },
       {
         "value": "&trans",
@@ -3076,8 +3111,13 @@
         ]
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&mkp",
+        "params": [
+          {
+            "value": "MB4",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&mkp",

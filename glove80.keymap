@@ -629,7 +629,7 @@ behaviors {
  &trans    &kp ESC        &kp HOME    &kp UP_ARROW          &kp END  &kp PG_UP                                                              &kp LC(C)  &kp LC(Z)           &kp INS            &none  &kp LC(V)  &kp PSCRN
  &trans     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN                                                            &kp LS(INS)  &kp LCTRL         &kp LSHFT         &kp LALT   &kp LGUI     &trans
  &trans  &kp K_APP    &kp LC(HOME)      &CEND_HOME      &kp LC(END)     &trans  &trans  &trans   &to 0  &kp ESC  &kp LG(LSHFT)  &kp LGUI       &trans    &kp TAB  &kp LC(LS(SEMI))  &kp LC(LA(DEL))     &trans     &trans
- &trans     &trans          &trans         &kp F11          &kp F12             &trans   &to 0   &to 0  &kp DEL        &kp ESC   &kp DEL                  &trans            &trans           &trans     &trans     &trans
+ &trans     &trans        &mkp MB4        &mkp MB4         &mkp MB5             &trans   &to 0   &to 0  &kp DEL        &kp ESC   &kp DEL                  &trans            &trans           &trans     &trans     &trans
             >;
         };
 
@@ -646,12 +646,12 @@ behaviors {
 
         layer_Shortcut {
             bindings = <
-     &trans      &trans      &trans      &trans        &trans                                                                               &trans       &trans  &trans         &trans  &trans
-     &trans  &kp C_PREV  &kp C_PLAY  &kp C_NEXT  &kp C_VOL_DN  &kp C_VOL_UP                                                         &trans  &trans       &trans  &trans         &trans  &trans
-     &trans  &kp LG(N6)  &kp LG(N5)      &trans    &kp LG(N7)    &kp LG(N4)                                                  &kp LS(LC(C))  &trans  &kp LS(INS)  &trans  &kp LS(LC(V))  &trans
-     &trans  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)    &kp LG(N4)    &kp LG(N5)                                                         &trans  &trans       &trans  &trans         &trans  &trans
- &kp LA(F4)      &trans  &kp LG(N3)  &kp LG(N2)    &kp LG(N3)    &kp LG(N1)  &trans   &to 0  &trans  &trans  &trans  &trans         &trans  &trans       &trans  &trans         &trans  &trans
- &kp LA(F4)      &trans      &trans      &trans        &trans                &trans   &to 0  &trans  &trans  &trans  &trans                 &trans       &trans  &trans         &trans  &trans
+     &trans      &trans        &trans        &trans         &trans                                                                               &trans       &trans  &trans         &trans  &trans
+     &trans  &kp C_PREV    &kp C_PLAY    &kp C_NEXT   &kp C_VOL_DN  &kp C_VOL_UP                                                         &trans  &trans       &trans  &trans         &trans  &trans
+     &trans  &kp LG(N6)    &kp LG(N5)        &trans     &kp LG(N7)    &kp LG(N4)                                                  &kp LS(LC(C))  &trans  &kp LS(INS)  &trans  &kp LS(LC(V))  &trans
+     &trans  &kp LG(N1)    &kp LG(N2)    &kp LG(N3)     &kp LG(N4)    &kp LG(N5)                                                         &trans  &trans       &trans  &trans         &trans  &trans
+ &kp LA(F4)      &trans    &kp LG(N3)    &kp LG(N2)     &kp LG(N3)    &kp LG(N1)  &trans   &to 0  &trans  &trans  &trans  &trans         &trans  &trans       &trans  &trans         &trans  &trans
+ &kp LA(F4)      &trans  &kp LA(LEFT)  &kp LA(LEFT)  &kp LA(RIGHT)                &trans   &to 0  &trans  &trans  &trans  &trans                 &trans       &trans  &trans         &trans  &trans
             >;
         };
 
@@ -662,7 +662,7 @@ behaviors {
      &trans      &trans          &trans    &mmv MOVE_UP        &mkp MCLK    &msc SCRL_UP                                                      &mkp MB5     &trans     &trans    &trans    &trans     &trans
      &trans      &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN                                                      &mkp MB4  &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI     &trans
  &kp LA(F4)      &trans  &msc SCRL_LEFT          &trans  &msc SCRL_RIGHT          &trans     &mo 9     &to 0  &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans    &trans     &trans
- &kp LA(F4)      &trans        &mkp MB4          &trans         &mkp MB5                  &mkp MB1  &mkp MB2  &mo 10  &trans  &trans  &trans               &trans     &trans    &trans    &trans     &trans
+ &kp LA(F4)      &trans        &mkp MB4        &mkp MB4         &mkp MB5                  &mkp MB1  &mkp MB2  &mo 10  &trans  &trans  &trans               &trans     &trans    &trans    &trans     &trans
             >;
         };
 
